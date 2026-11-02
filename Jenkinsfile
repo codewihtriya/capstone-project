@@ -5,7 +5,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/AsaD-04/capstone-project.git'
+                    url: 'https://github.com/codewihtriya/capstone-project.git'
             }
         }
 
